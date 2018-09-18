@@ -1,5 +1,5 @@
 <html>
-    
+    <head>
     <!-- Load Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
@@ -10,10 +10,14 @@
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    
+    <!-- Load css -->
+    <link rel="stylesheet" href="profile.css">
+
+  </head>
+
     <!-- buttons on top row -->
     <div class="flex-row">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between" data-toggle="modal" data-target="#profileModal">
                 <button type="button" class="fa fa-user fa-2x btn btn-info"></button>
                 <div>
                     <button type="button" class="fa fa-search fa-2x btn btn-info"></button>
@@ -22,7 +26,7 @@
             </div>
         </div>
       
-      <!-- Modal -->
+      <!-- Modal Add Click -->
       <div class="modal fade" id="addClickModal" tabindex="-1" role="dialog" aria-labelledby="addClickModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -42,6 +46,34 @@
           </div>
         </div>
       </div>
+
+      <!-- Modal Profile -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- <div class="modal-header"> -->
+            <button type="button" class="fa fa-pencil fa-2x btn btn-info"></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          
+        <!-- </div> -->
+        <div class="modal-body">
+          <div class="card">
+            <img src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg" alt="Cat" style="width:100%">
+            <h1>John Doe</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <a href="#"><i class="fa fa-twitter"></i></a> 
+            <a href="#"><i class="fa fa-linkedin"></i></a> 
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+            <a href="#">Change Username or Password</a>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
     <!-- map image placeholder -->
     <body background="map_snip.PNG"></body>
