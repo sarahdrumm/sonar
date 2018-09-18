@@ -1,6 +1,7 @@
 <html>
 
 <head>
+<<<<<<< HEAD
   <!-- Load Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
@@ -16,77 +17,109 @@
   <!-- Profile CSS -->
   <link rel="stylesheet" href="profile.css">
 
+=======
+    <!-- Load Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- JS from Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+>>>>>>> a076fecf6835259ea6d1188cd744278322c6cd33
 </head>
 
-<!-- map image placeholder -->
+<!-- TODO Map Image Placeholder -->
 <body background="map_snip.PNG">
 
-  <!-- Buttons on Top Row -->
-  <div class="flex-row">
-    <div class="d-flex justify-content-between">
-      <button type="button" class="fa fa-user fa-2x btn btn-info" data-toggle="modal" data-target="#profileModal"></button>
-      <div>
-        <button type="button" class="fa fa-search fa-2x btn btn-info"></button>
-        <button type="button" class="fa fa-plus fa-2x btn btn-info" data-toggle="modal" data-target="#addClickModal"></button>
-      </div>
+    <!-- Buttons on Top Row -->
+    <div class="flex-row">
+        <div class="d-flex justify-content-between">
+            <button type="button" class="fa fa-user fa-2x btn btn-info" data-toggle="modal" data-target="#profileModal"></button>
+            <div>
+                <button type="button" class="fa fa-search fa-2x btn btn-info"></button>
+                <button type="button" class="fa fa-plus fa-2x btn btn-info" data-toggle="modal" data-target="#addClickModal"></button>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <!-- TODO Placeholder Click -->
-  <div class="col-md-4 text-center">
-    <button type="button" class="fa fa-flag fa-2x btn btn-info" data-toggle="modal" data-target="#clickModal"></button>
-  </div>
-
-  <!-- add Click Modal -->
-  <div class="modal fade" id="addClickModal" tabindex="-1" role="dialog" aria-labelledby="addClickModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="addClickModalLabel">Add Click</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" class="form-control" id="name">
-          </div>
-          <div class="form-group">
-            <label for="info">Info:</label>
-            <input type="text" class="form-control" id="info">
-          </div>
-          <div class="form-group">
-            <label for="date">Date:</label>
-            <input type="date" class="form-control" id="date">
-          </div>
-          <div class="form-group">
-            <label for="time">Time:</label>
-            <input type="time" class="form-control" id="time">
-          </div>
-          <div class="form-group">
-            <label for="location">Location:</label>
-            <input type="text" class="form-control" id="location">
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-          <button type="button" class="btn btn-info">Create Modal</button>
-        </div>
-      </div>
+    <!-- TODO Placeholder Click -->
+    <div class="col-md-4 text-center">
+        <button type="button" class="fa fa-flag fa-2x btn btn-info" data-toggle="modal" data-target="#clickModal"></button>
     </div>
-  </div>
 
-  <!-- Profile modal -->
-  <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="fa fa-pencil fa-2x btn btn-info"></button>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+    <!-- add Click Modal -->
+    <div class="modal fade" id="addClickModal" tabindex="-1" role="dialog" aria-labelledby="addClickModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addClickModalLabel">Add Click</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="info">Info:</label>
+                        <input type="text" class="form-control" id="info">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date:</label>
+                        <input type="date" class="form-control" id="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time:</label>
+                        <input type="time" class="form-control" id="time">
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location:</label>
+                        <input type="text" class="form-control" id="location">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-info">Create Click</button>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <!-- profile Modal -->
+    <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="fa fa-pencil fa-2x btn btn-info"></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg"
+                                alt="Cat" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#">Change Username or Password</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<<<<<<< HEAD
         <div class="modal-body">
             <div class="img">
             <img src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg" alt="Cat" style="width:100%">
@@ -100,38 +133,41 @@
           </div>
         </div>
       </div>
+=======
+>>>>>>> a076fecf6835259ea6d1188cd744278322c6cd33
     </div>
-  </div>
 
-  <!-- click Modal -->
-  <div class="modal fade" id="clickModal" tabindex="-1" role="dialog" aria-labelledby="clickModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="clickModalLabel">Click Name</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+    <!-- click Modal -->
+    <div class="modal fade" id="clickModal" tabindex="-1" role="dialog" aria-labelledby="clickModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="clickModalLabel">Click Name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="Info">Info</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info">Join Click</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <div class="form-group">
-            <label for="Info">Info</label>
-          </div>
-          <div class="form-group">
-            <label for="date">Date</label>
-          </div>
-          <div class="form-group">
-            <label for="time">Time</label>
-          </div>
-          <div class="form-group">
-            <label for="location">Location</label> </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-info">Join Click</button>
-        </div>
-      </div>
     </div>
-  </div>
+
 </body>
 
 </html>
