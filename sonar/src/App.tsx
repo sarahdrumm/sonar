@@ -1,5 +1,5 @@
 import * as React from 'react';
-// import AddClickModal from './AddClickModal';
+import AddClickModal from './AddClickModal';
 import './App.css';
 import Buttons from './Button';
 import Map from './Map';
@@ -10,8 +10,8 @@ class App extends React.Component {
       <div>
        <Buttons/>
        <Map/>
+        <AddClickModal/>
       </div>
-      // <AddClickModal/>
     );
   }
 }
