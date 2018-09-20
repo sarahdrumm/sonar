@@ -10,20 +10,41 @@ class Map extends React.Component {
                         <div className="col-sm-4 listing-block">
                             <div className="media">
                                 <div className="media-body pl-3">
-                                    <div className="event">Lunch<small>12pm Jimmy John's</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
+                                    <div className="row">
+                                        <div className="col">
+                                            <button className="btn">
+                                                <div className="event">Lunch</div>
+                                            </button>
+                                        </div>
+                                        <div className="col">
+                                            <div className="location"> 9/20 - 12pm</div>
+                                            <div className="location"> Jimmy John's</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="media">
                                 <div className="media-body pl-3">
-                                    <div className="event">Happy Hour<small>6pm Rhein Haus</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
+                                    <div className="row">
+                                        <div className="col">
+                                            <button className="btn">
+                                                <div className="event">9/10</div>
+                                            </button>
+                                        </div>
+                                        <div className="col">
+                                            <div className="location">Happy Hour</div>
+                                            <div className="location"><small>6pm Rhein Haus</small></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="media">
                                 <div className="media-body pl-3">
-                                    <div className="event">Golfing<small>3pm Fircrest Golf Club</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Tacoma</div>
+                                    <div className="row">
+                                        <div className="event">
+                                            <button className="btn">i</button>
+                                            Golf </div>
+                                        <div className="address"> 9/20, 3pm, Fircrest Golf Club</div></div>
                                 </div>
                             </div>
                             <div className="media">
@@ -35,7 +56,6 @@ class Map extends React.Component {
                             <div className="media">
                                 <div className="media-body pl-3">
                                     <div className="event">Happy Hour<small>5pm Common Table</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
                                 </div>
                             </div>
                             <div className="media">
@@ -50,7 +70,7 @@ class Map extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }
