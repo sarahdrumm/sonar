@@ -34,6 +34,25 @@
 
 /* Other */
 
-.profilePic{
+.picWrapper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+.profilePic {
+    height: 100%;
+    width: auto;
+}
+
+.modal-header{
     width:100%;
+}
+
+.textWrapper{
+    text-align:center;
 }
