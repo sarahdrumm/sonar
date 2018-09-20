@@ -13,7 +13,7 @@
 .listing-block{background:#fff; height:1000px; padding-bottom:auto; padding-top:70px; overflow-y:scroll;}
 .slimScrollDiv{width:41%!important;}
 .media {background:#fff; position:relative; margin-bottom:15px;}
-.media-body{border:1px solid #bcbcbc86; border-left:0; height:auto;}
+.media-body{border:1px solid #bcbcbc86; height:auto;}
 .media .event{float:left; width:100%; font-size:30px;font-weight:600; color:rgb(46, 126, 146);}
 .media .event small{display:block; font-size:17px; color:#232323;}
 .media .address{float:left; width:100%;font-size:14px; margin-top:5px; color:#888;}
