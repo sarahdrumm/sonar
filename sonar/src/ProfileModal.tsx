@@ -12,24 +12,27 @@ class ProfileModal extends React.Component {
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                            <div className="modal-body">
-                                <div className="card">
+                        </div>
+                        <div className="modal-body">
+                            <div className="container">
+                                <div className="picWrapper">
                                     <img src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg"
                                         alt="Cat" className="profilePic" />
-                                    <h1>John Doe</h1>
-                                    <p className="title">CEO & Founder, Example</p>
-                                    <p>Harvard University</p>
-                                    <a href="#"><i className="fa fa-twitter" /></a>
-                                    <a href="#"><i className="fa fa-linkedin" /></a>
-                                    <a href="#"><i className="fa fa-facebook" /></a>
-                                    <a href="#">Change Username or Password</a>
+                                </div>
+                                <div className="textWrapper">
+                                <h1>John Doe</h1>
+                                <p className="title">CEO & Founder, Example</p>
+                                <p>Harvard University</p>
+                                <a href="#"><i className="fa fa-twitter" /></a>
+                                <a href="#"><i className="fa fa-linkedin" /></a>
+                                <a href="#"><i className="fa fa-facebook" /></a>
+                                <a href="#">Change Username or Password</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
 
         );
     }
