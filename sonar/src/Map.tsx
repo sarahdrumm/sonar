@@ -1,7 +1,5 @@
 import * as React from 'react';
 
-
-
 class Map extends React.Component {
     public render() {
         return (
@@ -11,7 +9,7 @@ class Map extends React.Component {
                     <div className="row">
                         <div className="col-sm-4 listing-block">
                             <div className="media">
-                                <div className="media-body pl-3">
+                                <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
                                     <div className="row">
                                         <div className="col col-sm-0">
                                             <div className="event">Lunch<small>12pm Starbucks</small></div>
@@ -21,7 +19,7 @@ class Map extends React.Component {
                                                 <div className="date">9.10</div>
                                         </div>
                                     </div>
-                                </div>
+                                </button>
                             </div>
                             <div className="media">
                                 <div className="media-body pl-3">
