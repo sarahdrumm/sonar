@@ -35,6 +35,11 @@
     margin:.5%;
 }
 
+.search-size{
+    height: 3.3em;
+    margin:1%;
+}
+
 /* Profile Modal */
 
 .picWrapper {
