@@ -13,40 +13,14 @@ class Map extends React.Component {
                             <div className="media">
                                 <div className="media-body pl-3">
                                     <div className="row">
-                                        <div className="col">
-                                            <button className="btn">
-                                                <div className="event">Lunch</div>
-                                            </button>
+                                        <div className="col col-sm-0">
+                                            <div className="event">Lunch<small>12pm Starbucks</small></div>
+                                            <div className="address">Jimmy John's</div>
                                         </div>
-                                        <div className="col">
-                                            <div className="location"> 9/20 - 12pm</div>
-                                            <div className="location"> Jimmy John's</div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.10</div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="row">
-                                        <div className="col">
-                                            <button className="btn">
-                                                <div className="event">9/10</div>
-                                            </button>
-                                        </div>
-                                        <div className="col">
-                                            <div className="location">Happy Hour</div>
-                                            <div className="location"><small>6pm Rhein Haus</small></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="row">
-                                        <div className="event">
-                                            <button className="btn">i</button>
-                                            Golf </div>
-                                        <div className="address"> 9/20, 3pm, Fircrest Golf Club</div></div>
                                 </div>
                             </div>
                             <div className="media">
