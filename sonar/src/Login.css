@@ -1,2 +1,5 @@
+/* CSS for login page */
 .link-text{font-size:30px;font-weight:600; text-align:center; color: white; font-family:"Trebuchet MS";}
-.centerL{width:100%; height:100%; }
+.login-text{float:left; width:100%; font-size:50px;font-weight:600; color:rgb(46, 126, 146);font-family:"Trebuchet MS";}
+.centerL{height: 80vh; display: flex; justify-content: center; align-items: center;}
+.all-text{font-family:"Trebuchet MS";}

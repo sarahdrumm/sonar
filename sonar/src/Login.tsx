@@ -8,18 +8,15 @@ import './Map.css';
 class Login extends React.Component {
     public render() {
         return (
-            <div className="container centerL">
+            <div className="container centerL all-text">
                 <form>
-                    <div className="media">
-                        <div className="event">
+                    <div className="login-text">
                             Welcome to SONAR
-                        </div>
                     </div>
 
                     <div className="form-group">
                         <label>Email address</label>
                         <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                        <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div className="form-group">
                         <label>Password</label>
