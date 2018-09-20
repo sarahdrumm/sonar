@@ -20,13 +20,12 @@ class ProfileModal extends React.Component {
                                         alt="Cat" className="profilePic" />
                                 </div>
                                 <div className="textWrapper">
-                                <h1>John Doe</h1>
-                                <p className="title">CEO & Founder, Example</p>
-                                <p>Harvard University</p>
-                                <a href="#"><i className="fa fa-twitter" /></a>
-                                <a href="#"><i className="fa fa-linkedin" /></a>
-                                <a href="#"><i className="fa fa-facebook" /></a>
-                                <a href="#">Change Username or Password</a>
+                                    <h1 className="name">John Doe</h1>
+                                    <p className="place">Seattle</p>
+                                    <br/>
+                                    <a className="symbol" href="#"><i className="fa fa-twitter" /></a>
+                                    <a className="symbol" href="#"><i className="fa fa-linkedin" /></a>
+                                    <a className="symbol" href="#"><i className="fa fa-facebook" /></a>
                                 </div>
                             </div>
                         </div>
