@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+
+
 class Map extends React.Component {
     public render() {
         return (
@@ -56,6 +58,42 @@ class Map extends React.Component {
                             <div className="media">
                                 <div className="media-body pl-3">
                                     <div className="event">Happy Hour<small>5pm Common Table</small></div>
+                                </div>
+                            </div>
+                            <div className="media">
+                                <div className="media-body pl-3">
+                                    <div className="event">Dinner<small>7pm Hopdaddy</small></div>
+                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
+                                </div>
+                            </div>
+                            <div className="media">
+                                <div className="media-body pl-3">
+                                    <div className="event">Lunch<small>12pm Jimmy John's</small></div>
+                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
+                                </div>
+                            </div>
+                            <div className="media">
+                                <div className="media-body pl-3">
+                                    <div className="event">Happy Hour<small>6pm Rhein Haus</small></div>
+                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
+                                </div>
+                            </div>
+                            <div className="media">
+                                <div className="media-body pl-3">
+                                    <div className="event">Golfing<small>3pm Fircrest Golf Club</small></div>
+                                    <div className="address">4062 Walnut Hill Drive, Tacoma</div>
+                                </div>
+                            </div>
+                            <div className="media">
+                                <div className="media-body pl-3">
+                                    <div className="event">Coffee<small>8am Starbucks</small></div>
+                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
+                                </div>
+                            </div>
+                            <div className="media">
+                                <div className="media-body pl-3">
+                                    <div className="event">Happy Hour<small>5pm Common Table</small></div>
+                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
                                 </div>
                             </div>
                             <div className="media">

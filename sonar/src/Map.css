@@ -9,7 +9,8 @@
     height: 100%;
 }
 .head{float:left;width:100%;}
-.listing-block{background:#fff; padding-bottom:auto; padding-top:70px; overflow-y:scroll;}
+/* .search-box{width:100%; margin:0; box-shadow:10px 13px 0 rgba(0,0,0,0.2);} */
+.listing-block{background:#fff; height:1000px; padding-bottom:auto; padding-top:70px; overflow-y:scroll;}
 .slimScrollDiv{width:41%!important;}
 .media {background:#fff; position:relative; margin-bottom:15px;}
 .media-body{border:1px solid #bcbcbc86; border-left:0; height:auto;}
@@ -23,24 +24,32 @@
 
 .topButtons {
     position: absolute; 
-    margin:.5%;
+    padding:.5%;
     z-index: 5;
+    background-color: white;
 }
 
 .topButtons .fa {
     margin:.5%;
 }
 
-/* Other */
+/* Profile Modal */
 
 .picWrapper {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
     margin: auto;
+    margin-top: 6%;
+}
+.modal-content{
+    background-color: #f3f3f3;
+}
 
+.modal-header{
+    border-bottom: 1px solid #d2d2d2;
 }
 
 .profilePic {
@@ -54,4 +63,16 @@
 
 .textWrapper{
     text-align:center;
+    margin-top:6%;
+}
+
+.place{
+    font-size:20px;
+    color: #5d5858
+}
+
+.symbol{
+    margin:4%;
+    color: #a7a7a7;
+    font-size: 35px;
 }
