@@ -4,7 +4,7 @@ class ClickModal extends React.Component {
     public render() {
         return (
 
-            <div className="modal fade" id="clickModal" tabIndex={-1} role="dialog" aria-labelledby="clickModalLabel" aria-hidden="true">
+            <div className="modal fade all-text" id="clickModal" tabIndex={-1} role="dialog" aria-labelledby="clickModalLabel" aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">

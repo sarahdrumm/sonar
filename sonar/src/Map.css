@@ -19,7 +19,7 @@
 .media .date{float:left; width:100%; font-size:30px;font-weight:600; color:white; text-align:center; font-family:"Trebuchet MS";}
 .media .event small{display:block; font-size:17px; color:#232323; font-family:"Trebuchet MS";}
 .media .address{float:left; width:100%;font-size:14px; margin-top:5px; color:#888; font-family:"Trebuchet MS";}
-
+.all-text{font-family:"Trebuchet MS";}
 .map-box{background-color:#A3CCFF;}
 
 /* CSS for the buttons */

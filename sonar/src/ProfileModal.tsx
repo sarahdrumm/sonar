@@ -4,7 +4,7 @@ class ProfileModal extends React.Component {
     public render() {
         return (
 
-            <div className="modal fade" id="profileModal" tabIndex={-1} role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
+            <div className="modal fade all-text" id="profileModal" tabIndex={-1} role="dialog" aria-labelledby="profileModalLabel" aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
