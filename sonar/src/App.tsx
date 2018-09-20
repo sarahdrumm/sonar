@@ -1,8 +1,9 @@
 import * as React from 'react';
-// import AddClickModal from './AddClickModal';
+import AddClickModal from './AddClickModal';
 import './App.css';
 import Buttons from './Button';
 import Map from './Map';
+import ProfileModal from './ProfileModal';
 
 class App extends React.Component {
   public render() {
@@ -10,8 +11,9 @@ class App extends React.Component {
       <div>
        <Buttons/>
        <Map/>
+       <AddClickModal/>
+       <ProfileModal/>
       </div>
-      // <AddClickModal/>
     );
   }
 }
