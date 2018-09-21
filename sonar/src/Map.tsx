@@ -12,8 +12,8 @@ class Map extends React.Component {
                                 <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
                                     <div className="row">
                                         <div className="col col-sm-0">
-                                            <div className="event">Lunch<small>12pm Starbucks</small></div>
-                                            <div className="address">Jimmy John's</div>
+                                            <div className="event">Lunch<small>11am Starbucks</small></div>
+                                            <div className="address">238 Winter Ave</div>
                                         </div>
                                         <div className="col col-sm-3 media-right">
                                                 <div className="date">9.10</div>
@@ -22,57 +22,95 @@ class Map extends React.Component {
                                 </button>
                             </div>
                             <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Coffee<small>8am Starbucks</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
-                                </div>
+                            <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                    <div className="row">
+                                        <div className="col col-sm-0">
+                                            <div className="event">Dinner<small>6pm CrushCraft</small></div>
+                                            <div className="address">278 Jefferson Ln</div>
+                                        </div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.10</div>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                             <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Happy Hour<small>5pm Common Table</small></div>
-                                </div>
+                            <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                    <div className="row">
+                                        <div className="col col-sm-0">
+                                            <div className="event">Happy Hour<small>5:30pm Common Table</small></div>
+                                            <div className="address">28 Hop Rd</div>
+                                        </div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.11</div>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                             <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Dinner<small>7pm Hopdaddy</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
-                                </div>
+                            <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                    <div className="row">
+                                        <div className="col col-sm-0">
+                                            <div className="event">Lunch<small>12pm Hopdaddy</small></div>
+                                            <div className="address">937 Adventure Ave</div>
+                                        </div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.12</div>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                             <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Lunch<small>12pm Jimmy John's</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
-                                </div>
+                            <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                    <div className="row">
+                                        <div className="col col-sm-0">
+                                            <div className="event">Lunch<small>12pm Jimmy John's</small></div>
+                                            <div className="address">777 Sandwich Pl</div>
+                                        </div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.14</div>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                             <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Happy Hour<small>6pm Rhein Haus</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
-                                </div>
+                            <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                    <div className="row">
+                                        <div className="col col-sm-0">
+                                            <div className="event">Paintball<small>2pm PaintPlace</small></div>
+                                            <div className="address">3232 Paint Pl</div>
+                                        </div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.14</div>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                             <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Golfing<small>3pm Fircrest Golf Club</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Tacoma</div>
-                                </div>
+                            <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                    <div className="row">
+                                        <div className="col col-sm-0">
+                                            <div className="event">Drinks<small>7pm Rien Haus</small></div>
+                                            <div className="address">42 Wallaby Way</div>
+                                        </div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.15</div>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                             <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Coffee<small>8am Starbucks</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
-                                </div>
-                            </div>
-                            <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Happy Hour<small>5pm Common Table</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
-                                </div>
-                            </div>
-                            <div className="media">
-                                <div className="media-body pl-3">
-                                    <div className="event">Dinner<small>7pm Hopdaddy</small></div>
-                                    <div className="address">4062 Walnut Hill Drive, Seattle</div>
-                                </div>
+                            <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                    <div className="row">
+                                        <div className="col col-sm-0">
+                                            <div className="event">Golfing<small>9:30am Fircrest</small></div>
+                                            <div className="address">718 Tree Ln</div>
+                                        </div>
+                                        <div className="col col-sm-3 media-right">
+                                                <div className="date">9.15</div>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
                         </div>
                         <div className="col-sm-8 map-box mx-0 px-0">
