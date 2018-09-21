@@ -8,7 +8,7 @@ class ClickModal extends React.Component {
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h3 className="modal-title" id="clickModalLabel">Lunch</h3>
+                            <button type="button" className="fa fa-pencil fa-2x btn btn-info" />
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -16,7 +16,7 @@ class ClickModal extends React.Component {
                         <div className="modal-body">
 
                             <div className="click">
-                                <button type="button" className="media-body pl-3 btn" data-toggle="modal" data-target="#clickModal">
+                                <button type="button" className="pl-3 btn" data-toggle="modal" data-target="#clickModal">
                                     <div className="row">
                                         <div className="col col-sm-0">
                                             <div className="event">Lunch</div>
@@ -31,7 +31,7 @@ class ClickModal extends React.Component {
                                 </button>
                             </div>
                             <div className="modal-footer">
-                                <button type="button" className="btn btn-info">Join Click</button>
+                                <button type="button" className="btn btn-info" data-dismiss="modal">Join Click</button>
                             </div>
                         </div>
                     </div>
